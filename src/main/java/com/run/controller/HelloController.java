@@ -18,4 +18,10 @@ public class HelloController {
         return "Hello test01";
     }
 
+    @GetMapping("/test02")
+    public String test02(){
+        System.out.println("world");
+        return "test02";
+    }
+
 }
