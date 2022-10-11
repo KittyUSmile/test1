@@ -20,6 +20,7 @@ public class HelloController {
 
     @GetMapping("/test02")
     public String test02(){
+        System.out.println("hello");
         return "test02";
     }
 
